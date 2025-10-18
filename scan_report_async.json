@@ -1,0 +1,1271 @@
+[
+  {
+    "url": "https://www.google.com/",
+    "headers": {
+      "url": "https://www.google.com/",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/",
+      "reflected": true
+    }
+  },
+  {
+    "url": "https://www.google.com/intl/en/policies/terms/",
+    "headers": {
+      "url": "https://www.google.com/intl/en/policies/terms/",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/intl/en/policies/terms/",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/intl/en/policies/privacy/",
+    "headers": {
+      "url": "https://www.google.com/intl/en/policies/privacy/",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/intl/en/policies/privacy/",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefdomain?prefdom=IN&prev=https://www.google.co.in/&sig=K_GCQzCXLp4Zil9rqaUjlUtjm5Y_s%3D",
+    "headers": {
+      "url": "https://www.google.com/setprefdomain?prefdom=IN&prev=https://www.google.co.in/&sig=K_GCQzCXLp4Zil9rqaUjlUtjm5Y_s%3D",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefdomain?prefdom=IN&prev=https://www.google.co.in/&sig=K_GCQzCXLp4Zil9rqaUjlUtjm5Y_s%3D",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefdomain?prefdom=IN&prev=https://www.google.co.in/&sig=K_DTP4XCTp558VT43fiH3IZ7zi1ME%3D",
+    "headers": {
+      "url": "https://www.google.com/setprefdomain?prefdom=IN&prev=https://www.google.co.in/&sig=K_DTP4XCTp558VT43fiH3IZ7zi1ME%3D",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefdomain?prefdom=IN&prev=https://www.google.co.in/&sig=K_DTP4XCTp558VT43fiH3IZ7zi1ME%3D",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/intl/en/about.html",
+    "headers": {
+      "url": "https://www.google.com/intl/en/about.html",
+      "status": 200,
+      "missing_headers": [
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/intl/en/about.html",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/intl/en/ads/",
+    "headers": {
+      "url": "https://www.google.com/intl/en/ads/",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/intl/en/ads/",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCA4",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCA4",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCA4",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCA0",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCA0",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCA0",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAw",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAw",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAw",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAs",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAs",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAs",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAo",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAo",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAo",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAk",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAk",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAk",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAg",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAg",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAg",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAc",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAc",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAc",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAY",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAY",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_I8IqdXMThbEfnTxQRxtZKvgf47g%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwjMl7ycu62QAxVZqJUCHSPfKfMQ2ZgBCAY",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/advanced_search?hl=en-IN&authuser=0",
+    "headers": {
+      "url": "https://www.google.com/advanced_search?hl=en-IN&authuser=0",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/advanced_search?hl=en-IN&authuser=0",
+      "reflected": true
+    }
+  },
+  {
+    "url": "https://www.google.com/preferences?hl=en",
+    "headers": {
+      "url": "https://www.google.com/preferences?hl=en",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/preferences?hl=en",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/imghp?hl=en&tab=wi",
+    "headers": {
+      "url": "https://www.google.com/imghp?hl=en&tab=wi",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/imghp?hl=en&tab=wi",
+      "reflected": true
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCA4",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCA4",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=pa&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCA4",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dpa%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ8qwCCAo&usg=AOvVaw0EoVJrOlvFP0yCL-cq3crF",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dpa%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ8qwCCAo&usg=AOvVaw0EoVJrOlvFP0yCL-cq3crF",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dpa%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ8qwCCAo&usg=AOvVaw0EoVJrOlvFP0yCL-cq3crF",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dpa%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ8awCCAk&usg=AOvVaw2PLQaR-os87xAWHEeeM46y",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dpa%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ8awCCAk&usg=AOvVaw2PLQaR-os87xAWHEeeM46y",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dpa%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ8awCCAk&usg=AOvVaw2PLQaR-os87xAWHEeeM46y",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dpa%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ8KwCCAg&usg=AOvVaw3PvxSsWog8T_LusqgZXRd1",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dpa%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ8KwCCAg&usg=AOvVaw3PvxSsWog8T_LusqgZXRd1",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dpa%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ8KwCCAg&usg=AOvVaw3PvxSsWog8T_LusqgZXRd1",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dpa%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dpa&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ1fMKCAM&usg=AOvVaw1qaLbMSZ4c2S6_8lsGYhYW",
+    "headers": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dpa%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dpa&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ1fMKCAM&usg=AOvVaw1qaLbMSZ4c2S6_8lsGYhYW",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dpa%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dpa&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ1fMKCAM&usg=AOvVaw1qaLbMSZ4c2S6_8lsGYhYW",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dpa%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ-vUJCAI&usg=AOvVaw3KUCqwGEHNT1NTpJnViX80",
+    "headers": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dpa%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ-vUJCAI&usg=AOvVaw3KUCqwGEHNT1NTpJnViX80",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dpa%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ-vUJCAI&usg=AOvVaw3KUCqwGEHNT1NTpJnViX80",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dpa%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ7JsICAE&usg=AOvVaw0ttv2oiyK-p034TRElKUNt",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dpa%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ7JsICAE&usg=AOvVaw0ttv2oiyK-p034TRElKUNt",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dpa%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiQuI2iu62QAxW_UGcHHbtjLTsQ7JsICAE&usg=AOvVaw0ttv2oiyK-p034TRElKUNt",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCA0",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCA0",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=ml&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCA0",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dml%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ8qwCCAo&usg=AOvVaw1p0qOkvCi4Uc8wBMkx3BF3",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dml%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ8qwCCAo&usg=AOvVaw1p0qOkvCi4Uc8wBMkx3BF3",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dml%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ8qwCCAo&usg=AOvVaw1p0qOkvCi4Uc8wBMkx3BF3",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dml%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ8awCCAk&usg=AOvVaw2M4U7NmgpMrHd8wXNpT1cc",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dml%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ8awCCAk&usg=AOvVaw2M4U7NmgpMrHd8wXNpT1cc",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dml%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ8awCCAk&usg=AOvVaw2M4U7NmgpMrHd8wXNpT1cc",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dml%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ8KwCCAg&usg=AOvVaw2varfX4ZZKi58g6H--_420",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dml%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ8KwCCAg&usg=AOvVaw2varfX4ZZKi58g6H--_420",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dml%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ8KwCCAg&usg=AOvVaw2varfX4ZZKi58g6H--_420",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dml%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dml&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ1fMKCAM&usg=AOvVaw0kc9ZHqaIzuwVB9Ks9r12k",
+    "headers": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dml%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dml&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ1fMKCAM&usg=AOvVaw0kc9ZHqaIzuwVB9Ks9r12k",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dml%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dml&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ1fMKCAM&usg=AOvVaw0kc9ZHqaIzuwVB9Ks9r12k",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dml%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ-vUJCAI&usg=AOvVaw3fFwIUppfBE56ygpv4Xllq",
+    "headers": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dml%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ-vUJCAI&usg=AOvVaw3fFwIUppfBE56ygpv4Xllq",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dml%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ-vUJCAI&usg=AOvVaw3fFwIUppfBE56ygpv4Xllq",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dml%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ7JsICAE&usg=AOvVaw0YNCsqsunokgooWIRgPLpI",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dml%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ7JsICAE&usg=AOvVaw0YNCsqsunokgooWIRgPLpI",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dml%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwj8-4Onu62QAxWiSWwGHX94NTcQ7JsICAE&usg=AOvVaw0YNCsqsunokgooWIRgPLpI",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAw",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAw",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=kn&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAw",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dkn%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q8qwCCAo&usg=AOvVaw2qwOutZyts9OWtk4sQWpp4",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dkn%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q8qwCCAo&usg=AOvVaw2qwOutZyts9OWtk4sQWpp4",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dkn%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q8qwCCAo&usg=AOvVaw2qwOutZyts9OWtk4sQWpp4",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dkn%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q8awCCAk&usg=AOvVaw2RqNs74WROyB1B39UhrNwz",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dkn%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q8awCCAk&usg=AOvVaw2RqNs74WROyB1B39UhrNwz",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dkn%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q8awCCAk&usg=AOvVaw2RqNs74WROyB1B39UhrNwz",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dkn%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q8KwCCAg&usg=AOvVaw2KQqIm9bbdbN3zio9dkwtk",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dkn%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q8KwCCAg&usg=AOvVaw2KQqIm9bbdbN3zio9dkwtk",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dkn%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q8KwCCAg&usg=AOvVaw2KQqIm9bbdbN3zio9dkwtk",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dkn%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dkn&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q1fMKCAM&usg=AOvVaw2IrLOlyaF2x94VewXi_shQ",
+    "headers": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dkn%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dkn&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q1fMKCAM&usg=AOvVaw2IrLOlyaF2x94VewXi_shQ",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dkn%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dkn&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q1fMKCAM&usg=AOvVaw2IrLOlyaF2x94VewXi_shQ",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dkn%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q-vUJCAI&usg=AOvVaw3EQoIuLh6OsS5g-Ky_y2pu",
+    "headers": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dkn%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q-vUJCAI&usg=AOvVaw3EQoIuLh6OsS5g-Ky_y2pu",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dkn%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q-vUJCAI&usg=AOvVaw3EQoIuLh6OsS5g-Ky_y2pu",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dkn%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q7JsICAE&usg=AOvVaw2mc6tFSNMeAg4yqVOmj-Eg",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dkn%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q7JsICAE&usg=AOvVaw2mc6tFSNMeAg4yqVOmj-Eg",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dkn%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwigv_Kqu62QAxWXbmwGHdFSKl0Q7JsICAE&usg=AOvVaw2mc6tFSNMeAg4yqVOmj-Eg",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAs",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAs",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=gu&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAs",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dgu%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ8qwCCAo&usg=AOvVaw0AEla1Wec-ROl3l4P6SwPg",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dgu%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ8qwCCAo&usg=AOvVaw0AEla1Wec-ROl3l4P6SwPg",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dgu%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ8qwCCAo&usg=AOvVaw0AEla1Wec-ROl3l4P6SwPg",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dgu%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ8awCCAk&usg=AOvVaw2b64LmYQxHte0QUxDXV3FC",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dgu%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ8awCCAk&usg=AOvVaw2b64LmYQxHte0QUxDXV3FC",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dgu%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ8awCCAk&usg=AOvVaw2b64LmYQxHte0QUxDXV3FC",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dgu%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ8KwCCAg&usg=AOvVaw1AG_Ujo-TV13ndsVuG0FEU",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dgu%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ8KwCCAg&usg=AOvVaw1AG_Ujo-TV13ndsVuG0FEU",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dgu%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ8KwCCAg&usg=AOvVaw1AG_Ujo-TV13ndsVuG0FEU",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dgu%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dgu&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ1fMKCAM&usg=AOvVaw29LKBwYR157GYNOc8hiwxP",
+    "headers": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dgu%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dgu&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ1fMKCAM&usg=AOvVaw29LKBwYR157GYNOc8hiwxP",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dgu%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dgu&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ1fMKCAM&usg=AOvVaw29LKBwYR157GYNOc8hiwxP",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dgu%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ-vUJCAI&usg=AOvVaw1_2-ND-_sV9ybPc-7UWjpT",
+    "headers": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dgu%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ-vUJCAI&usg=AOvVaw1_2-ND-_sV9ybPc-7UWjpT",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dgu%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ-vUJCAI&usg=AOvVaw1_2-ND-_sV9ybPc-7UWjpT",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dgu%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ7JsICAE&usg=AOvVaw11jDU-UGaDUrJnIm0VaPq1",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dgu%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ7JsICAE&usg=AOvVaw11jDU-UGaDUrJnIm0VaPq1",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dgu%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjB9KGuu62QAxXETWwGHRe-LxIQ7JsICAE&usg=AOvVaw11jDU-UGaDUrJnIm0VaPq1",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAo",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAo",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=ta&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAo",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dta%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ8qwCCAo&usg=AOvVaw0JHYzRVQthU1ZAU6IdbD11",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dta%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ8qwCCAo&usg=AOvVaw0JHYzRVQthU1ZAU6IdbD11",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dta%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ8qwCCAo&usg=AOvVaw0JHYzRVQthU1ZAU6IdbD11",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dta%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ8awCCAk&usg=AOvVaw1x13grkU87n9M_Ib1DL9Y9",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dta%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ8awCCAk&usg=AOvVaw1x13grkU87n9M_Ib1DL9Y9",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dta%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ8awCCAk&usg=AOvVaw1x13grkU87n9M_Ib1DL9Y9",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dta%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ8KwCCAg&usg=AOvVaw0VZM4i6ZYY8zbKrktDHVbL",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dta%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ8KwCCAg&usg=AOvVaw0VZM4i6ZYY8zbKrktDHVbL",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dta%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ8KwCCAg&usg=AOvVaw0VZM4i6ZYY8zbKrktDHVbL",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dta%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dta&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ1fMKCAM&usg=AOvVaw3I4kd9oLHFs00CuWzY7grE",
+    "headers": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dta%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dta&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ1fMKCAM&usg=AOvVaw3I4kd9oLHFs00CuWzY7grE",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dta%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dta&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ1fMKCAM&usg=AOvVaw3I4kd9oLHFs00CuWzY7grE",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dta%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ-vUJCAI&usg=AOvVaw16Ouob4k6Maq1TSAgqulVm",
+    "headers": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dta%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ-vUJCAI&usg=AOvVaw16Ouob4k6Maq1TSAgqulVm",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dta%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ-vUJCAI&usg=AOvVaw16Ouob4k6Maq1TSAgqulVm",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dta%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ7JsICAE&usg=AOvVaw0osIn7_gE47-Nq-WLNmpSE",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dta%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ7JsICAE&usg=AOvVaw0osIn7_gE47-Nq-WLNmpSE",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dta%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjCub6xu62QAxWQRmcHHaSwLLUQ7JsICAE&usg=AOvVaw0osIn7_gE47-Nq-WLNmpSE",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAk",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAk",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=mr&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAk",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dmr%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q8qwCCAo&usg=AOvVaw3coox_58_ro0V3jLE3Spnb",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dmr%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q8qwCCAo&usg=AOvVaw3coox_58_ro0V3jLE3Spnb",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dmr%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q8qwCCAo&usg=AOvVaw3coox_58_ro0V3jLE3Spnb",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dmr%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q8awCCAk&usg=AOvVaw34O66s_2rp0JSBvJ3dixNg",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dmr%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q8awCCAk&usg=AOvVaw34O66s_2rp0JSBvJ3dixNg",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dmr%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q8awCCAk&usg=AOvVaw34O66s_2rp0JSBvJ3dixNg",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dmr%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q8KwCCAg&usg=AOvVaw1LyNjdRQ2CzcKbycAaW2RX",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dmr%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q8KwCCAg&usg=AOvVaw1LyNjdRQ2CzcKbycAaW2RX",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dmr%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q8KwCCAg&usg=AOvVaw1LyNjdRQ2CzcKbycAaW2RX",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dmr%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dmr&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q1fMKCAM&usg=AOvVaw3myoZ-uTMUAnLFn6x99jn1",
+    "headers": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dmr%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dmr&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q1fMKCAM&usg=AOvVaw3myoZ-uTMUAnLFn6x99jn1",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dmr%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dmr&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q1fMKCAM&usg=AOvVaw3myoZ-uTMUAnLFn6x99jn1",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dmr%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q-vUJCAI&usg=AOvVaw0349VnytdqL47eXDjuuhEN",
+    "headers": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dmr%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q-vUJCAI&usg=AOvVaw0349VnytdqL47eXDjuuhEN",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dmr%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q-vUJCAI&usg=AOvVaw0349VnytdqL47eXDjuuhEN",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dmr%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q7JsICAE&usg=AOvVaw3_7iKgIRZtjKr71pNoudJ-",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dmr%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q7JsICAE&usg=AOvVaw3_7iKgIRZtjKr71pNoudJ-",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dmr%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjO0cG0u62QAxWJS2wGHSGXCa8Q7JsICAE&usg=AOvVaw3_7iKgIRZtjKr71pNoudJ-",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAg",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAg",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=te&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAg",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dte%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q8qwCCAo&usg=AOvVaw0Zz3b_lvI8WkuMOP6POvw0",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dte%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q8qwCCAo&usg=AOvVaw0Zz3b_lvI8WkuMOP6POvw0",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dte%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q8qwCCAo&usg=AOvVaw0Zz3b_lvI8WkuMOP6POvw0",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dte%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q8awCCAk&usg=AOvVaw29CwhbJdsFnPk_-nVl897g",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dte%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q8awCCAk&usg=AOvVaw29CwhbJdsFnPk_-nVl897g",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dte%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q8awCCAk&usg=AOvVaw29CwhbJdsFnPk_-nVl897g",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dte%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q8KwCCAg&usg=AOvVaw0y1JiZ2b6vx0FTJRgdGrEJ",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dte%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q8KwCCAg&usg=AOvVaw0y1JiZ2b6vx0FTJRgdGrEJ",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dte%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q8KwCCAg&usg=AOvVaw0y1JiZ2b6vx0FTJRgdGrEJ",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dte%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dte&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q1fMKCAM&usg=AOvVaw3G7PnKeBGDCnu0VIhOXUSn",
+    "headers": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dte%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dte&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q1fMKCAM&usg=AOvVaw3G7PnKeBGDCnu0VIhOXUSn",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dte%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dte&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q1fMKCAM&usg=AOvVaw3G7PnKeBGDCnu0VIhOXUSn",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dte%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q-vUJCAI&usg=AOvVaw1klBkjyMzoEoxIYKjNclhR",
+    "headers": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dte%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q-vUJCAI&usg=AOvVaw1klBkjyMzoEoxIYKjNclhR",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dte%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q-vUJCAI&usg=AOvVaw1klBkjyMzoEoxIYKjNclhR",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dte%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q7JsICAE&usg=AOvVaw0vfFpavRRLtriOxVDzpStq",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dte%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q7JsICAE&usg=AOvVaw0vfFpavRRLtriOxVDzpStq",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dte%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwjs-9i3u62QAxUfS2wGHVp_AX8Q7JsICAE&usg=AOvVaw0vfFpavRRLtriOxVDzpStq",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAc",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAc",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=bn&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAc",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dbn-IN%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ8qwCCAo&usg=AOvVaw0dwER2QgnGqWH7Rytp_2bq",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dbn-IN%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ8qwCCAo&usg=AOvVaw0dwER2QgnGqWH7Rytp_2bq",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dbn-IN%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ8qwCCAo&usg=AOvVaw0dwER2QgnGqWH7Rytp_2bq",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dbn-IN%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ8awCCAk&usg=AOvVaw0VcgObZu8hKR2VFxTW17ak",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dbn-IN%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ8awCCAk&usg=AOvVaw0VcgObZu8hKR2VFxTW17ak",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dbn-IN%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ8awCCAk&usg=AOvVaw0VcgObZu8hKR2VFxTW17ak",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dbn-IN%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ8KwCCAg&usg=AOvVaw2J6eh4ELpzqYrrcRfXVhxq",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dbn-IN%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ8KwCCAg&usg=AOvVaw2J6eh4ELpzqYrrcRfXVhxq",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dbn-IN%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ8KwCCAg&usg=AOvVaw2J6eh4ELpzqYrrcRfXVhxq",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dbn-IN%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dbn&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ1fMKCAM&usg=AOvVaw35CxHkZHnDpBKgWlQo_E_r",
+    "headers": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dbn-IN%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dbn&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ1fMKCAM&usg=AOvVaw35CxHkZHnDpBKgWlQo_E_r",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dbn-IN%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dbn&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ1fMKCAM&usg=AOvVaw35CxHkZHnDpBKgWlQo_E_r",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dbn-IN%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ-vUJCAI&usg=AOvVaw0Pa25PRQadM_BhfaKtuYL3",
+    "headers": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dbn-IN%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ-vUJCAI&usg=AOvVaw0Pa25PRQadM_BhfaKtuYL3",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dbn-IN%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ-vUJCAI&usg=AOvVaw0Pa25PRQadM_BhfaKtuYL3",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dbn-IN%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ7JsICAE&usg=AOvVaw2HR_EnpIz3unsyKeh2GV0S",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dbn-IN%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ7JsICAE&usg=AOvVaw2HR_EnpIz3unsyKeh2GV0S",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dbn-IN%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiw2bO7u62QAxXPUGwGHZIXD2oQ7JsICAE&usg=AOvVaw2HR_EnpIz3unsyKeh2GV0S",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAY",
+    "headers": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAY",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/setprefs?sig=0_syodlpO44tb4tTHHPgxFlkX8aCw%3D&hl=hi&source=homepage&sa=X&ved=0ahUKEwiUj-Kbu62QAxWErpUCHaz6OQYQ2ZgBCAY",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dhi%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ8qwCCAo&usg=AOvVaw1gEv2zFiKI_IKIWbLMZVd6",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dhi%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ8qwCCAo&usg=AOvVaw1gEv2zFiKI_IKIWbLMZVd6",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/terms%3Fhl%3Dhi%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ8qwCCAo&usg=AOvVaw1gEv2zFiKI_IKIWbLMZVd6",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dhi%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ8awCCAk&usg=AOvVaw2zp-uHY4YoDEKNHIQEjsv6",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dhi%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ8awCCAk&usg=AOvVaw2zp-uHY4YoDEKNHIQEjsv6",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Frame-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://policies.google.com/privacy%3Fhl%3Dhi%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ8awCCAk&usg=AOvVaw2zp-uHY4YoDEKNHIQEjsv6",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dhi%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ8KwCCAg&usg=AOvVaw1RQp3Gm30IA9A38Ry44oti",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dhi%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ8KwCCAg&usg=AOvVaw1RQp3Gm30IA9A38Ry44oti",
+      "status": 200,
+      "missing_headers": [
+        "Content-Security-Policy",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://support.google.com/websearch/%3Fp%3Dws_results_help%26hl%3Dhi%26fg%3D1&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ8KwCCAg&usg=AOvVaw1RQp3Gm30IA9A38Ry44oti",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dhi%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dhi&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ1fMKCAM&usg=AOvVaw0mXa6ajjK0bfd3d0Wewe8X",
+    "headers": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dhi%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dhi&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ1fMKCAM&usg=AOvVaw0mXa6ajjK0bfd3d0Wewe8X",
+      "status": 200,
+      "missing_headers": [
+        "Strict-Transport-Security",
+        "X-Content-Type-Options",
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/safesearch%3Fhl%3Dhi%26prev%3Dhttps://www.google.com/preferences%3Fhl%253Dhi&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ1fMKCAM&usg=AOvVaw0mXa6ajjK0bfd3d0Wewe8X",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dhi%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ-vUJCAI&usg=AOvVaw2G58ePwP9qfgF1gvkIo7m3",
+    "headers": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dhi%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ-vUJCAI&usg=AOvVaw2G58ePwP9qfgF1gvkIo7m3",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=/setting/search/privateresults%3Fhl%3Dhi%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ-vUJCAI&usg=AOvVaw2G58ePwP9qfgF1gvkIo7m3",
+      "reflected": false
+    }
+  },
+  {
+    "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dhi%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ7JsICAE&usg=AOvVaw3rdHbDkVNArpBren2w-1El",
+    "headers": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dhi%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ7JsICAE&usg=AOvVaw3rdHbDkVNArpBren2w-1El",
+      "status": 200,
+      "missing_headers": [
+        "Referrer-Policy"
+      ]
+    },
+    "xss": {
+      "url": "https://www.google.com/url?q=https://myactivity.google.com/product/search/controls%3Futm_source%3Dgoogle%26utm_medium%3Dpref-page%26hl%3Dhi%26authuser%3D0&opi=89978449&sa=U&ved=0ahUKEwiz0My_u62QAxWQT2wGHXvyNWkQ7JsICAE&usg=AOvVaw3rdHbDkVNArpBren2w-1El",
+      "reflected": false
+    }
+  }
+]

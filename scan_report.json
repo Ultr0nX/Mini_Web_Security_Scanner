@@ -1,0 +1,17 @@
+[
+    {
+        "url": "https://ctf.qnqsec.team/challenges",
+        "headers": {
+            "url": "https://ctf.qnqsec.team/challenges",
+            "status": 403,
+            "missing_headers": [
+                "Content-Security-Policy",
+                "Strict-Transport-Security"
+            ]
+        },
+        "xss": {
+            "url": "https://ctf.qnqsec.team/challenges",
+            "reflected": true
+        }
+    }
+]
